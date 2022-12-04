@@ -1,0 +1,24 @@
+{
+  "name": "css-flexbox-cheatsheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilana5minut/CSS-Flexbox-Cheatsheet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilana5minut/CSS-Flexbox-Cheatsheet/issues"
+  },
+  "homepage": "https://github.com/pilana5minut/CSS-Flexbox-Cheatsheet#readme",
+  "devDependencies": {
+    "stylelint-config-htmlacademy": "^1.1.3",
+    "stylelint-order-htmlacademy": "2.0.6"
+  }
+}

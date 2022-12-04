@@ -1,0 +1,31 @@
+.header {
+  background-color: rgb(10, 155, 145);
+}
+
+.page {
+  background-color: rgb(0, 0, 255)
+}
+
+.nav {
+  background-color: rgb(250, 200, 100);
+}
+
+.scroll-box {
+  background-color: rgb(50, 165, 40);
+}
+
+.info {
+  background-color: rgb(180, 85, 185);
+}
+
+.scheme {
+  background-color: rgb(200, 75, 75);
+}
+
+.scheme__container {
+  background-color: rgb(20, 80, 155);
+}
+
+.scheme__itemm {
+  background-color: rgb(235, 180, 10);
+}

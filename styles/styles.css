@@ -1,0 +1,10 @@
+/* @import url("normalize.css"); */
+@import url("fonts.css");
+@import url("variables.css");
+@import url("global.css");
+@import url("overall.css");
+@import url("bgc.css");
+
+/* import components */
+
+/* @import url("../styles/components/component-1.css"); */
