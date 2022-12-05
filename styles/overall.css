@@ -3,21 +3,35 @@
   height: 100%;
   overflow-y: auto;
   scroll-behavior: smooth;
+  /* disable scrollbar is FireFox ( scrollbar-width: none ) */
+  scrollbar-width: none;
 }
+
+/* ++++++++++++++++ blink scrollbar stylization ++++++++++++++++ */
 
 .page-wrapper::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
 
+/* ++++++++++++++++ blink scrollbar stylization ++++++++++++++++ */
+
 .header {
   scroll-snap-align: start;
-  height: 100%;
+  height: 94%;
+  text-align: center;
+}
+
+.header__link {
   font-weight: 700;
   font-size: 100px;
-  text-align: center;
-  color: #ffffff;
+  color: var(--color-theme-items);
   letter-spacing: 10px;
+}
+
+.header__link:hover {
+  text-shadow: 0 -1px 20px rgba(255, 174, 0, 0.3), 0 1px 20px rgba(255, 174, 0, 0.3), -1px 0 20px rgba(255, 174, 0, 0.3), 1px 0 20px rgba(255, 174, 0, 0.3);
+  transition-duration: 1s;
 }
 
 .page {
@@ -33,8 +47,38 @@
   justify-content: center;
   gap: 10px 30px;
   padding: 10px;
-  font-weight: 700;
+  font-weight: 400;
   font-family: "RobotoMono", sans-serif;
+}
+
+.nav__link_theme-default {
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.nav__link_theme-default:hover {
+  text-shadow: 0 -1px 10px rgba(255, 255, 255, 0.45), 0 1px 10px rgba(255, 255, 255, 0.45), -1px 0 10px rgba(255, 255, 255, 0.45), 1px 0 10px rgba(255, 255, 255, 0.45);
+  transition-duration: 0.2s;
+}
+
+.nav__link_theme-container {
+  font-weight: 600;
+  color: var(--color-theme-container);
+}
+
+.nav__link_theme-container:hover {
+  text-shadow: 0 -1px 10px rgba(12, 125, 116, 0.66), 0 1px 10px rgba(12, 125, 116, 0.66), -1px 0 10px rgba(12, 125, 116, 0.66), 1px 0 10px rgba(12, 125, 116, 0.66);
+  transition-duration: 0.2s;
+}
+
+.nav__link_theme-items {
+  font-weight: 400;
+  color: var(--color-theme-items);
+}
+
+.nav__link_theme-items:hover {
+  text-shadow: 0 -1px 10px rgba(255, 174, 0, 0.5), 0 1px 10px rgba(255, 174, 0, 0.5), -1px 0 10px rgba(255, 174, 0, 0.5), 1px 0 10px rgba(255, 174, 0, 0.5);
+  transition-duration: 0.2s;
 }
 
 .scroll-box {
@@ -42,12 +86,18 @@
   scroll-snap-type: y mandatory;
   overflow-y: auto;
   scroll-behavior: smooth;
+  /* disable scrollbar is FireFox ( scrollbar-width: none ) */
+  scrollbar-width: none;
 }
+
+/* ++++++++++++++++ blink scrollbar stylization ++++++++++++++++ */
 
 .scroll-box::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
+
+/* ++++++++++++++++ blink scrollbar stylization ++++++++++++++++ */
 
 .screen {
   display: flex;
@@ -70,14 +120,46 @@
   font-family: "RobotoMono", sans-serif;
 }
 
+.info__title_theme-default {
+  color: var(--color-white);
+}
+
+.info__title_theme-container {
+  color: var(--color-theme-container);
+}
+
+.info__title_theme-items {
+  color: var(--color-theme-items);
+}
+
 .info__paragraph {
   flex-grow: 1;
   padding-right: 20px;
   overflow-y: auto;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 20px;
+  line-height: 1.5;
   font-family: "Roboto", sans-serif;
+  color: var(--color-white);
+  letter-spacing: 1.5px;
+  /* stylization scrollbar is FireFox ( scrollbar-width: & scrollbar-color: ) */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-scrollbar-thumb) transparent;
 }
+
+/* ++++++++++++++++ blink scrollbar stylization ++++++++++++++++ */
+
+.info__paragraph::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.info__paragraph::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar-thumb);
+  border-radius: 10px;
+}
+
+/* ++++++++++++++++ blink scrollbar stylization ++++++++++++++++ */
 
 .scheme {
   display: flex;
@@ -94,9 +176,17 @@
   width: 600px;
   height: 400px;
   padding: 20px;
+  background-color: var(--color-theme-container);
+  border: 2px solid var(--color-background-light);
+  border-radius: 6px;
+  box-shadow: -6px 12px 8px rgb(2, 23, 22), inset -5px 8px 3px rgba(4, 47, 43, 0.2);
 }
 
-.scheme__itemm {
+.scheme__item {
   width: 150px;
   height: 70px;
+  background-color: var(--color-theme-items);
+  border: 0.5px solid #704d00;
+  border-radius: 6px;
+  box-shadow: -3px 6px 2px rgba(4, 47, 43, 0.2), inset 3px -3px 2px rgba(168, 115, 0, 0.3), inset -3px 3px 1px rgb(255, 200, 82);
 }

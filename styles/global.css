@@ -11,10 +11,11 @@ html {
 body {
   height: 100vh;
   margin: 0;
-  /*  Не забудь заменить подключенные шрифты */
   font-family: "Font-name", sans-serif;
-  background: linear-gradient(to right top, rgb(15, 35, 29), rgb(22, 85, 69));
-  background-image: url("../images/cell.svg");
+  /*  Не забудь заменить подключенные шрифты */
+  /* color: var(--color-white); */
+  background: linear-gradient(to right top, var(--color-background-dark), var(--color-background-light));
+  /* background-image: url("../images/cell.svg"); */
 }
 
 h1,
