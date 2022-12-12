@@ -8,4 +8,5 @@
 /* import components */
 
 @import url("components/scheme-flex.css");
+@import url("components/scheme-align-content.css");
 @import url("components/scheme-justify-content.css");
