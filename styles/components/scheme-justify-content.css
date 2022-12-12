@@ -8,15 +8,15 @@
 
 /* unique styles .scheme__container */
 .scheme__container_justify-content {
-  width: 800px;
-  height: 70px;
-  padding-right: 5px;
-  padding-left: 5px;
+  width: 70%;
+  height: 10%;
+  padding: 10px 5px;
+  column-gap: 2%;
 }
 
 /* unique styles .scheme__item */
 .scheme__item_justify-content {
-  width: 80px;
+  width: 10%;
   height: 100%;
 }
 

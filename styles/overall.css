@@ -108,7 +108,7 @@
 
 .info {
   display: flex;
-  flex-basis: 600px;
+  flex-basis: 35%;
   flex-direction: column;
   row-gap: 20px;
   min-width: 300px;
