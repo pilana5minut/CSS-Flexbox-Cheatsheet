@@ -108,10 +108,10 @@
 
 .info {
   display: flex;
-  flex-basis: 600px;
   flex-direction: column;
   row-gap: 20px;
-  min-width: 300px;
+  min-width: 35%;
+  max-width: 35%;
 }
 
 .info__title {
