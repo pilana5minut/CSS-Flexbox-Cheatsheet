@@ -192,7 +192,6 @@
 }
 
 .scheme__item {
-  flex-grow: 1;
   height: 10%;
   background-color: var(--color-theme-items);
   border: 0.5px solid #704d00;
