@@ -10,10 +10,10 @@
 
 /* unique styles .scheme__container */
 .scheme__container_flex {
-  width: 800px;
-  height: 200px;
-  padding: 40px;
-  gap: 40px;
+  width: 70%;
+  height: 30%;
+  padding: 3%;
+  gap: 5%;
 }
 
 .scheme__container_flex:nth-child(4) {
@@ -30,7 +30,6 @@
 
 /* unique styles .scheme__item */
 .scheme__item_flex {
-  flex-grow: 1;
   height: 100%;
 }
 

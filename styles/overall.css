@@ -181,10 +181,10 @@
   display: flex;
   flex-wrap: wrap;
   align-content: start;
-  gap: 20px 20px;
-  width: 600px;
-  height: 400px;
-  padding: 20px;
+  gap: 2% 2%;
+  width: 70%;
+  height: 50%;
+  padding: 10px;
   background-color: var(--color-theme-container);
   border: 2px solid var(--color-background-light);
   border-radius: 6px;
@@ -192,8 +192,8 @@
 }
 
 .scheme__item {
-  width: 150px;
-  height: 70px;
+  flex-grow: 1;
+  height: 10%;
   background-color: var(--color-theme-items);
   border: 0.5px solid #704d00;
   border-radius: 6px;
