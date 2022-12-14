@@ -1,0 +1,119 @@
+/* unique styles .scheme */
+.scheme_align-items {
+  gap: 20px;
+}
+
+.scheme__wrapper {
+  width: 33%;
+  height: 33%;
+}
+
+/* unique styles .scheme__container */
+.scheme__container_align-items {
+  flex-grow: 1;
+  width: 100%;
+}
+
+/* unique styles .scheme__item */
+.scheme__item_align-items {
+  flex-grow: 1;
+}
+
+.scheme-container-align-items-flex-start {
+  align-items: flex-start;
+}
+
+.scheme-container-align-items-flex-start .scheme__item:nth-child(1) {
+  height: 50%;
+}
+
+.scheme-container-align-items-flex-start .scheme__item:nth-child(2) {
+  height: 70%;
+}
+
+.scheme-container-align-items-flex-start .scheme__item:nth-child(3) {
+  height: 30%;
+}
+
+.scheme-container-align-items-flex-start .scheme__item:nth-child(4) {
+  height: 40%;
+}
+
+.scheme-container-align-items-flex-end {
+  align-items: flex-end;
+}
+
+.scheme-container-align-items-flex-end .scheme__item:nth-child(1) {
+  height: 50%;
+}
+
+.scheme-container-align-items-flex-end .scheme__item:nth-child(2) {
+  height: 70%;
+}
+
+.scheme-container-align-items-flex-end .scheme__item:nth-child(3) {
+  height: 30%;
+}
+
+.scheme-container-align-items-flex-end .scheme__item:nth-child(4) {
+  height: 40%;
+}
+
+.scheme-container-align-items-center {
+  align-items: center;
+}
+
+.scheme-container-align-items-center .scheme__item:nth-child(1) {
+  height: 50%;
+}
+
+.scheme-container-align-items-center .scheme__item:nth-child(2) {
+  height: 70%;
+}
+
+.scheme-container-align-items-center .scheme__item:nth-child(3) {
+  height: 30%;
+}
+
+.scheme-container-align-items-center .scheme__item:nth-child(4) {
+  height: 40%;
+}
+
+.scheme-container-align-items-stretch {
+  align-items: stretch;
+}
+
+.scheme-container-align-items-stretch .scheme__item {
+  height: auto;
+}
+
+.scheme-container-align-items-baseline {
+  align-items: baseline;
+  font-weight: 600;
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: var(--color-background-light);
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.scheme-container-align-items-baseline .scheme__item:nth-child(1) {
+  height: 60%;
+  padding-top: 20px;
+}
+
+.scheme-container-align-items-baseline .scheme__item:nth-child(2) {
+  height: 80%;
+  padding-top: 80px;
+}
+
+.scheme-container-align-items-baseline .scheme__item:nth-child(3) {
+  height: 40%;
+  padding-top: 10px;
+}
+
+.scheme-container-align-items-baseline .scheme__item:nth-child(4) {
+  height: 50%;
+  padding-top: 40px;
+}
